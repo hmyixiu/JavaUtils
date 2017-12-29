@@ -9,14 +9,15 @@ import java.text.NumberFormat;
  *
  */
 public abstract class NumberUtil {
-	//------------常量定义-------------//
-	/** 零 */
-	public static BigDecimal ZERO = BigDecimal.ZERO;
-	/** 一百 */
-	public static BigDecimal ONE_HUNDRED = new BigDecimal("100");
+	
+    //------------常量定义-------------//
+    /** 零 */
+    public static BigDecimal ZERO = BigDecimal.ZERO;
+    /** 一百 */
+    public static BigDecimal ONE_HUNDRED = new BigDecimal("100");
 	
 	
-	private static NumberFormat nf = new DecimalFormat("0000");
+    private static NumberFormat nf = new DecimalFormat("0000");
     public static MathContext mc = new MathContext(16);
 
 
